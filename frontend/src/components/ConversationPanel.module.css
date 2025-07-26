@@ -1,0 +1,51 @@
+.panel {
+  width: 260px;
+  background: var(--panel-bg);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.list {
+  list-style: none;
+  flex: 1;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}
+
+.list li:hover {
+  background: #f9fafb;
+}
+
+.active {
+  background: #eef2ff;
+  border-left: 4px solid var(--user-bubble);
+}
+
+.empty {
+  padding: 1rem;
+  text-align: center;
+  color: #6b7280;
+}
