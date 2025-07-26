@@ -1,0 +1,6 @@
+fastapi[all]
+uvicorn[standard]
+motor
+pandas
+groq
+python-dotenv
