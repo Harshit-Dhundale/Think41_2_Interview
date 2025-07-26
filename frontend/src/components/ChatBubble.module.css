@@ -1,0 +1,43 @@
+.userRow, .aiRow {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.userRow { justify-content: flex-end; }
+.aiRow   { justify-content: flex-start; }
+
+.userBubble {
+  background: var(--user-bubble);
+  color: var(--user-text);
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border-bottom-right-radius: 0.25rem;
+  max-width: 70%;
+}
+
+.aiBubble {
+  background: var(--ai-bubble);
+  color: var(--ai-text);
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border-bottom-left-radius: 0.25rem;
+  max-width: 70%;
+}
+
+.timestamp {
+  display: block;
+  font-size: 0.625rem;
+  text-align: right;
+  margin-top: 0.25rem;
+  color: #6b7280;
+}
+
+.system {
+  text-align: center;
+  margin: 1rem 0;
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
